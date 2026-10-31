@@ -1,7 +1,7 @@
 
     let datas = []
 
-    fetch("../datas/data.json")
+    fetch("./datas/data.json")
       .then(response => response.json())
       .then(data => {
         console.log(data)

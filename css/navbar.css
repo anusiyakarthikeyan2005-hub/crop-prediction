@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+  background-color: green;
+  color: white;
+  position: sticky;
+  height: 60px;
+
+}
+
+ul li {
+
+  color: white
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+
+}
+
+.nav-links a:hover {
+  color: green;
+  background-color: white;
+}
+
+
+
+@media (max-width: 1024px) {
+  nav {
+    padding: 10px 15px;
+  }
+
+  .nav-links {
+    gap: 5px;
+  }
+
+  .nav-links li {
+    margin-left: 10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+  }
+
+  .nav-links li {
+    margin: 0;
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

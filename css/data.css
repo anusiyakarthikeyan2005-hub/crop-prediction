@@ -1,0 +1,55 @@
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.crops-card {
+  width: 30%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: white;
+}
+
+.crops-card img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+}
+
+/* ===== Tablet (max-width: 1024px) ===== */
+@media (max-width: 1024px) {
+  .crops-card {
+    width: 45%;
+    /* 2 cards per row */
+  }
+
+}
+
+/* ===== Mobile (max-width: 768px) ===== */
+@media (max-width: 768px) {
+  #result {
+    gap: 20px;
+  }
+
+  .crops-card {
+    width: 90%;
+    /* 1 card per row */
+  }
+}
+
+/* ===== Small Mobile (max-width: 480px) ===== */
+@media (max-width: 480px) {
+  .crops-card h1 {
+    font-size: 20px;
+  }
+
+  .crops-card p {
+    font-size: 14px;
+  }
+
+}

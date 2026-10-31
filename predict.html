@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predict crops</title>
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/predict.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">🌿 agro Predict</div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./data.html">Crop</a></li>
+        <li><a href="./predict.html">Predict Crop</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="rect-cards-container">
+
+      <div class="rect-card temperature">
+        <div class="image-part">
+          <img src="./images/temperature.jpg">
+          <span class="card-title">Temperature</span>
+        </div>
+        <p>
+          Temperature affects how fast crops grow. Each crop has an ideal temperature range too high or too low can slow
+          growth and reduce yield. Warm temperatures help germination and photosynthesis in many crops.
+          Crop growth depends on environmental factors such as temperature, rainfall, humidity, and soil pH. Proper
+          sunlight and suitable climate conditions help plants grow healthy and increase yield.
+        </p>
+      </div>
+
+
+      <div class="rect-card humidity">
+        <div class="image-part">
+          <img src="./images/humidity.jpg">
+          <span class="card-title">Humidity</span>
+        </div>
+        <p>
+          Humidity is the amount of moisture in the air. Proper humidity helps plants stay healthy, but very high
+          humidity can cause fungal diseases. Balanced humidity supports good leaf and stem growth.
+          Humidity plays an important role in crop growth by regulating water loss from plants. Adequate humidity helps
+          maintain moisture balance, supports healthy leaf development, and improves overall crop productivity.
+        </p>
+      </div>
+
+      <div class="rect-card ph">
+        <div class="image-part">
+          <img src="./images/ph level.jpg">
+          <span class="card-title">PH Level</span>
+        </div>
+        <p>
+          Soil pH shows how acidic or alkaline the soil is. Most crops grow well in slightly acidic to neutral soil.
+          Correct pH helps plants absorb nutrients properly.
+          Healthy soil is essential for strong crop growth and higher yields. Proper soil pH and nutrient balance help
+          plants absorb essential minerals, supporting root development and overall crop productivity.
+        </p>
+      </div>
+
+      <div class="rect-card rainfall">
+        <div class="image-part">
+          <img src="./images/rainfall.jpg">
+          <span class="card-title">Rainfall</span>
+        </div>
+        <p>
+          Rainfall provides the water crops need to grow. Too little rain can lead to drought stress, while too much can
+          cause waterlogging and root damage. Regular, moderate rainfall is best for most crops.Adequate rainfall is
+          essential for crop growth and soil moisture. Proper water supply supports seed
+          germination, nutrient absorption, and healthy plant development, leading to improved crop yield.</p>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+
+  <section class="value">
+
+    <div class="card-predict">
+      <h2>Predict Crop</h2>
+      <label for="temp">Enter the Temperature</label>
+      <input type="number" step="0.01" id="temp" placeholder="Temperature">
+      <label for="humidity">Enter the Humidity</label>
+      <input type="number" step="0.01" id="humidity" placeholder="Humidity">
+      <label for="ph">Enter the PH Value</label>
+      <input type="number" step="0.01" id="ph" placeholder="pH">
+      <label for="rainfall">Enter the Rainfall</label>
+      <input type="number" step="0.01" id="rainfall" placeholder="Rainfall">
+
+      <button onclick="PredictCrop()">Predict</button>
+
+      <h3 id="result"></h3>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-section">
+        <h3>🌾 Crop Predictor</h3>
+        <p>
+          Smart crop prediction system that helps farmers choose the right crop
+          based on soil, weather, and location data.
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#predict">Predict Crop</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>📧 Email: agro@croppredict.com</p>
+        <p>📞 Phone: +91 9024115520</p>
+        <p>📍 India</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Crop Prediction System | All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+  <script src="./js/predict.js"></script>
+
+</body>
+
+</html>

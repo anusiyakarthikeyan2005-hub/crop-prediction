@@ -1,0 +1,188 @@
+[
+  {
+    "crop": "Rice",
+    "description": "Rice is a staple food crop grown in flooded fields. The cultivation cost is around ₹25,000–₹40,000 including seeds, fertilizers, irrigation, and labor.",
+    "grow": "Rice grows in hot, humid climate. Sowing is done in June–July or November–December. Seedlings are transplanted after 20–25 days and harvested in 120–150 days.",
+    "image": "./images/crops/rice.jpg"
+  },
+  {
+    "crop": "Wheat",
+    "description": "Wheat is a major winter cereal crop. It requires 1 acre of land and costs ₹18,000–₹30,000 per acre for cultivation.",
+    "grow": "Wheat grows in cool climate. Sowing is done in October–November. Seeds are sown directly, irrigated at critical stages, and harvested after 110–130 days.",
+    "image": "./images/crops/wheat.jpg"
+  },
+  {
+    "crop": "Mung Bean",
+    "description": "Mung bean is a short-duration pulse crop rich in protein. One acre costs around ₹10,000–₹18,000 to cultivate.",
+    "grow": "It grows in warm climate. Sowing is done in February–March or June–July. Seeds are directly sown and harvested after 60–70 days.",
+    "image": "./images/crops/mungbean.jpg"
+  },
+  {
+    "crop": "Tea",
+    "description": "Tea is a plantation crop grown for leaves. Initial investment is high, about ₹1,50,000 per acre.",
+    "grow": "Tea grows in cool and humid climate. Planting is done in June–July. Regular irrigation and pruning are required. Leaves are plucked after 2–3 years.",
+    "image": "./images/crops/tea.jpg"
+  },
+  {
+    "crop": "Millet",
+    "description": "Millet is a drought-resistant cereal crop requiring low water. One acre costs ₹8,000–₹15,000.",
+    "grow": "Millet grows in dry regions. Sowing is done in June–July. Minimal irrigation is needed and harvest is after 70–90 days.",
+    "image": "./images/crops/millets.jpg"
+  },
+  {
+    "crop": "Maize",
+    "description": "Maize is used as food and fodder. One acre cultivation costs ₹15,000–₹25,000.",
+    "grow": "Maize grows in warm climate. Sowing is done in June–July or October. Harvest is after 90–110 days.",
+    "image": "./images/crops/maize.jpg"
+  },
+  {
+    "crop": "Lentil",
+    "description": "Lentil is a winter pulse crop rich in nutrients. One acre costs ₹12,000–₹20,000.",
+    "grow": "It grows in cool climate. Sowing is done in October–November and harvested after 110–120 days.",
+    "image": "./images/crops/lentil.jpg"
+  },
+  {
+    "crop": "Jute",
+    "description": "Jute is a fiber crop used for making bags and ropes. One acre costs ₹20,000–₹30,000.",
+    "grow": "Jute grows in warm and humid climate. Sowing is done in March–April and harvested after 120–130 days.",
+    "image": "./images/crops/jute.jpg"
+  },
+  {
+    "crop": "Coffee",
+    "description": "Coffee is a beverage crop grown under shade. One acre establishment costs about ₹1,20,000.",
+    "grow": "Coffee grows in warm climate with shade. Planting is done in June–August. Harvesting starts after 3–4 years.",
+    "image": "./images/crops/coffee.jpg"
+  },
+  {
+    "crop": "Cotton",
+    "description": "Cotton is a fiber crop used in textile industry. One acre costs ₹30,000–₹50,000.",
+    "grow": "Cotton grows in warm climate. Sowing is done in May–June and harvested after 160–180 days.",
+    "image": "./images/crops/cotton.jpg"
+  },
+  {
+    "crop": "Ground Nut",
+    "description": "Groundnut is an oilseed crop rich in protein. One acre costs ₹20,000–₹30,000.",
+    "grow": "Groundnut grows in warm climate. Sowing is done in June–July or January. Harvest after 100–120 days.",
+    "image": "./images/crops/groundnut.jpg"
+  },
+  {
+    "crop": "Peas",
+    "description": "Peas are protein-rich vegetables grown in winter. One acre costs ₹20,000–₹30,000.",
+    "grow": "Peas grow in cool climate. Sowing is done in October–November. Harvest after 60–70 days.",
+    "image": "./images/crops/peas.jpg"
+  },
+  {
+    "crop": "Rubber",
+    "description": "Rubber is a plantation crop grown for latex. Initial cost is around ₹2,00,000 per acre.",
+    "grow": "Rubber grows in hot and humid climate. Planting is done in June–July. Latex tapping starts after 6–7 years.",
+    "image": "./images/crops/rubber.jpg"
+  },
+  {
+    "crop": "Sugarcane",
+    "description": "Sugarcane is a long-duration cash crop. One acre costs ₹40,000–₹70,000.",
+    "grow": "Sugarcane grows in hot climate. Planting is done from January–March and harvested after 10–12 months.",
+    "image": "./images/crops/sugarcane.jpg"
+  },
+  {
+    "crop": "Tobacco",
+    "description": "Tobacco is a commercial crop grown for leaves. One acre costs ₹25,000–₹40,000.",
+    "grow": "Tobacco grows in warm climate. Sowing is done in October–November and harvested after 120–150 days.",
+    "image": "./images/crops/tobacco.jpg"
+  },
+  {
+    "crop": "Kidney Beans",
+    "description": "Kidney beans are protein-rich pulses. One acre costs ₹15,000–₹25,000.",
+    "grow": "They grow in warm climate. Sowing is done in June–July. Harvest after 90–100 days.",
+    "image": "./images/crops/kidneybean.jpg"
+  },
+  {
+    "crop": "Moth Beans",
+    "description": "Moth beans are drought-resistant pulses. One acre costs ₹8,000–₹12,000.",
+    "grow": "They grow in hot and dry regions. Sowing is done in July and harvested after 70–80 days.",
+    "image": "./images/crops/mothbean.jpg"
+  },
+  {
+    "crop": "Coconut",
+    "description": "Coconut is a multipurpose plantation crop. One acre initial cost is ₹1,00,000–₹1,50,000.",
+    "grow": "Coconut grows in tropical coastal climate. Planting is done in June–July. Yield starts after 5–6 years.",
+    "image": "./images/crops/coconut.jpg"
+  },
+  {
+    "crop": "Black gram",
+    "description": "Black gram is a popular pulse crop. One acre costs ₹10,000–₹18,000.",
+    "grow": "It grows in warm climate. Sowing is done in June–July or February–March. Harvest after 70–80 days.",
+    "image": "./images/crops/blackgram.jpg"
+  },
+  {
+    "crop": "Adzuki Beans",
+    "description": "Adzuki beans are small red pulses. One acre costs ₹15,000–₹25,000.",
+    "grow": "They grow in warm climate. Sowing is done in June–July and harvested after 90 days.",
+    "image": "./images/crops/adzukibean.jpg"
+  },
+  {
+    "crop": "Pigeon Peas",
+    "description": "Pigeon peas are long-duration pulses. One acre costs ₹20,000–₹30,000.",
+    "grow": "They grow in semi-arid regions. Sowing is done in June–July and harvested after 150–180 days.",
+    "image": "./images/crops/pigeonpea.jpg"
+  },
+  {
+    "crop": "Chickpea",
+    "description": "Chickpea is a nutritious winter pulse crop. One acre costs ₹15,000–₹25,000.",
+    "grow": "Chickpea grows in cool and dry climate. Sowing is done in October–November and harvested after 100–120 days.",
+    "image": "./images/crops/chickpea.jpg"
+  },
+  {
+    "crop": "Banana",
+    "description": "Banana is a high-yield fruit crop. One acre costs ₹60,000–₹1,00,000.",
+    "grow": "Banana grows in warm and humid climate. Planting is done in June–July. Harvest after 11–14 months.",
+    "image": "./images/crops/banana.jpg"
+  },
+  {
+    "crop": "Grapes",
+    "description": "Grapes are grown for table and wine purpose. One acre costs ₹1,00,000–₹1,50,000.",
+    "grow": "Grapes grow in dry climate. Planting is done in January–February. Harvest after 8–9 months.",
+    "image": "./images/crops/grapes.jpg"
+  },
+  {
+    "crop": "Apple",
+    "description": "Apple is a temperate fruit crop. One acre costs ₹1,50,000–₹2,00,000.",
+    "grow": "Apple grows in cold climate. Planting is done in January–February. Fruiting starts after 4–5 years.",
+    "image": "./images/crops/apple.jpg"
+  },
+  {
+    "crop": "Mango",
+    "description": "Mango is a long-term fruit crop. One acre costs ₹50,000–₹80,000 initially.",
+    "grow": "Mango grows in tropical climate. Planting is done in June–August. Fruiting starts after 4–5 years.",
+    "image": "./images/crops/mango.jpg"
+  },
+  {
+    "crop": "Muskmelon",
+    "description": "Muskmelon is a summer fruit crop. One acre costs ₹20,000–₹30,000.",
+    "grow": "Muskmelon grows in warm climate. Sowing is done in January–February. Harvest after 80–90 days.",
+    "image": "./images/crops/muskmelon.jpg"
+  },
+  {
+    "crop": "Orange",
+    "description": "Orange is a citrus fruit crop. One acre costs ₹70,000–₹1,00,000.",
+    "grow": "Orange grows in mild tropical climate. Planting is done in June–July. Fruiting starts after 3–4 years.",
+    "image": "./images/crops/orange.jpg"
+  },
+  {
+    "crop": "Papaya",
+    "description": "Papaya is a fast-growing fruit crop. One acre costs ₹40,000–₹60,000.",
+    "grow": "Papaya grows in warm climate. Sowing is done in June–July. Harvest starts after 8–10 months.",
+    "image": "./images/crops/papaya.jpg"
+  },
+  {
+    "crop": "Pomegranate",
+    "description": "Pomegranate is a drought-tolerant fruit crop. One acre costs ₹60,000–₹90,000.",
+    "grow": "Pomegranate grows in semi-arid climate. Planting is done in June–July. Harvest after 2–3 years.",
+    "image": "./images/crops/pomegranate.jpg"
+  },
+  {
+    "crop": "Watermelon",
+    "description": "Watermelon is a summer fruit crop. One acre costs ₹20,000–₹35,000.",
+    "grow": "Watermelon grows in hot climate. Sowing is done in January–February. Harvest after 80–90 days.",
+    "image": "./images/crops/watermelon.jpg"
+  }
+]

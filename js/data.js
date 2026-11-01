@@ -9,7 +9,7 @@
           const data = document.getElementById("result")
           data.innerHTML += `
           <div class="crops-card">
-        ${item.crop === "Adzuki Beans" ? "" : `<img src="${item.image}">`}
+            ${item.crop === "Adzuki Beans" ? "" : `<img src="${item.image}">`}
             <h1>${item.crop} </h1>
             <p> <b> Crop Description: </b> ${item.description} </p>  
       
